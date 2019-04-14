@@ -34,7 +34,7 @@
 
 #words {
     margin-top: 40px;
-    overflow-wrap: break-word;
+    overflow: scroll;
     width: 560px;
     transform: translate(25%, 0);
 }

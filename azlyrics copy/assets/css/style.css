@@ -1,6 +1,12 @@
 body {
 	background: #F2F2F2;
 }
+
+
+/*
+ * home page
+*/
+
 #bottom_menu {
 	position: fixed;
 	bottom: 0;
@@ -12,22 +18,48 @@ body {
 	height: 100%;
 }
 #space {
-	position: absolute;
-	margin: 0;
-	top: 50%;
-	left: 50%;
-	-ms-transform: translate(-50%, -50%);
-	transform: translate(-50%,-50%);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+	margin:0;
 }
 
-#logo {
-	position: absolute;
-	margin: 0;
-	top: 50%;
-	left: 50%;
-	-ms-transform: translate(-50%, -50%);
-	transform: translate(-50%,-18%);
+.container {
+	margin-top: 250px;
+	margin-left: 325px;
 }
+
+.spacebar {
+	margin-top: -30px;
+	margin-left: -120px;
+}
+
+
+.input{
+  width: 725px;
+  border: #F2F2F2;
+  background:#F2F2F2; 
+  padding: 15px 30px;
+  outline: none;
+  font-size: 18px;
+  color: black;
+  position: relative;
+  margin-top: -200px;
+  font-family: baskerville-urw;
+  font-style: italic;
+  letter-spacing: 2px;
+}
+
+
+.logo {
+	margin-top: -138px;
+	margin-left:250px;
+}
+
+
+
+
 /*
  * search results page
 */
@@ -144,29 +176,11 @@ figure figcaption {
 	bottom: 0;
 	left: 15px;
 }
-#homepage_container {
-	position: relative;
-	height: 100%;
 
-}
-#space {
-	position: absolute;
-	margin: 0;
-	top: 50%;
-	left: 50%;
-	-ms-transform: translate(-50%, -50%);
-	transform: translate(-50%,-50%);
-}
 
-#logo {
-	position: absolute;
-	margin: 0;
-	top: 50%;
-	left: 50%;
-	-ms-transform: translate(-50%, -50%);
-	transform: translate(-50%,-18%);
-}
-
+/*
+ * artist page
+*/
 
 
 #page_container {
@@ -328,3 +342,7 @@ a {
 	text-decoration: none;
     color: black;
 }
+
+
+
+
